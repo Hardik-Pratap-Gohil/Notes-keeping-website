@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Notes-keeping-website/static/css/main.d3732676.css",
+    "main.js": "/Notes-keeping-website/static/js/main.3f3e22bd.js",
+    "static/js/453.577c5f79.chunk.js": "/Notes-keeping-website/static/js/453.577c5f79.chunk.js",
+    "index.html": "/Notes-keeping-website/index.html",
+    "main.d3732676.css.map": "/Notes-keeping-website/static/css/main.d3732676.css.map",
+    "main.3f3e22bd.js.map": "/Notes-keeping-website/static/js/main.3f3e22bd.js.map",
+    "453.577c5f79.chunk.js.map": "/Notes-keeping-website/static/js/453.577c5f79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3732676.css",
+    "static/js/main.3f3e22bd.js"
+  ]
+}
