@@ -1,38 +1,84 @@
+/* Base App styling */
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #f8f9fa;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: #121212;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dark-mode .card {
+  background-color: #1f1f1f;
+  border-color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dark-mode .btn {
+  color: white;
+}
+
+.dark-mode .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.dark-mode .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #333;
+  color: white;
+  border: 1px solid #444;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #aaa;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: white;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-primary {
+  background-color: #007bff !important;
+}
+
+.dark-mode .navbar-primary {
+  background-color: #0056b3 !important;
+}
+
+.form-check-label {
+  color: white;
+}
+
+
+
+/* Note text visibility in dark mode */
+.dark-mode .card-text {
+  color: white;
+}
+
+.dark-mode .card{
+  color: white;
 }
